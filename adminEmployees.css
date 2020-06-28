@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ================================================= 
+   Base Elements Styles
+==================================================== */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.container{
+    background-color: #F8F8F8;
+}
+
+nav {
+    width: 100%;
+}
+
+.counter {
+    padding-bottom: 2rem;
+}
+
+.search-bar {
+    background-color: #042241;
+    padding: 5px ;
+}
+/* ================================================= 
+  Typography  Styles
+==================================================== */
+
+.counter h2 {
+    font-size: 32px;
+}
+
+.counter p{
+    font-size: 24px;
+}
+
+.status p {
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 12px;
+    color: #adadad;
+}
+
+/* ================================= 
+  Page Components
+==================================== */
+
+.form {
+    background-color: white;
+}
+
+.search-icon {
+    color: black;
+    font-size: medium;
+}
+
+.icon {
+    color: black;
+}
+
+.hired-btn {
+    width: 120px;
+    background-color: #042241;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.available-btn {
+    width: 120px;
+    background-color: #33BEFF;
+    color: white;
+    border-color: #33BEFF;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.unavailable-btn {
+    width: 120px;
+    background-color: #A7A7A7;
+    color: white;
+    border-color: #A7A7A7;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+/ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
